@@ -57,3 +57,37 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
+
+.services-background-image {
+  background-image: url("/Images/Backgrounds/s_image.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+  width: 100%;
+}
+
+.services-text-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  /* margin: 30px 0; */
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e78;
+}
+
+.services-header {
+  font-size: 32px;
+  color: #fff;
+  margin: 40px 0;
+  font-weight: 600;
+}
+
+.services-text {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 20px 0;
+}
