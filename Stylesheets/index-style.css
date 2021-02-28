@@ -39,3 +39,21 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.about-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 30px 30px;
+}
+
+.about-header {
+  font-size: 32px;
+  color: #1e1e1e;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 15px;
+  font-weight: 500;
+}
