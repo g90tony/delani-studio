@@ -26,8 +26,16 @@ body {
 }
 
 .landing-header {
-  font-size: 48px;
+  font-size: 42px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;
+  margin: 10px 0;
+}
+
+.landing-text {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
 }
