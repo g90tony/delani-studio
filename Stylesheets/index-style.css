@@ -116,6 +116,16 @@ body {
   font-weight: 600;
 }
 
+.work-item-description {
+  font-size: 14px;
+  height: 90px;
+  width: 95%;
+}
+
+.hidden {
+  display: none;
+}
+
 .work-item img {
   width: 95px;
   margin: 0 auto;
