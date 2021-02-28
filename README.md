@@ -24,5 +24,5 @@ For any questions, feedback or suggestions, feel free to send an email to calebm
 
 ### License
 
-_{MIT}_
+_MIT_
 Copyright (c) 2021 **Caleb Tony**
