@@ -10,7 +10,7 @@ body {
 }
 
 .landing-background-image {
-  background-image: url("/Images/Backgrounds/landing_img.jpg");
+  background-image: url("Images/Backgrounds/landing_img.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -63,7 +63,7 @@ body {
 }
 
 .services-background-image {
-  background-image: url("/Images/Backgrounds/s_image.jpg");
+  background-image: url("Images/Backgrounds/s_image.jpg");
   background-size: cover;
   background-position: center center;
   min-height: 50vh;
@@ -170,7 +170,7 @@ body {
 }
 
 .contact-background-image {
-  background-image: url("/Images/Backgrounds/c_image.jpg");
+  background-image: url("Images/Backgrounds/c_image.jpg");
   background-size: cover;
   background-position: center center;
   min-height: 50vh;
