@@ -16,5 +16,7 @@ $("#contact-form").submit((e) => {
   alert(
     `Hello ${state.name}, thank you for sending your message. We will respond promptly...`
   );
-  console.log(state);
+  $("#contact-form").each(function () {
+    this.reset();
+  });
 });
