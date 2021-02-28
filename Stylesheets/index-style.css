@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap");
 
+::placeholder {
+  color: rgb(209, 209, 209);
+}
+
 body {
   font-family: "Nunito", sans-serif;
   margin: 0;
@@ -138,6 +142,94 @@ body {
   width: 200px;
 }
 
+.contact-background-image {
+  background-image: url("/Images/Backgrounds/c_image.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 50vh;
+  width: 100%;
+}
+
+.contact-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  /* margin: 30px 0; */
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e78;
+}
+
+.contact-form-row {
+  display: flex;
+  width: 75vw;
+  flex-flow: row wrap;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.contact-form-group {
+  display: flex;
+  flex-flow: column;
+  width: 47%;
+  margin-top: 10px;
+}
+
+.contact-form-group label {
+  color: #fff;
+  font-weight: 500;
+}
+
+.contact-form-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0 #fff solid;
+  background-color: #f2f2f24b;
+  color: #fff;
+  width: 100%;
+}
+
+.contact-form-text-area-group {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-form-text-area-group label {
+  color: #fff;
+  font-weight: 500;
+}
+
+.contact-form-text-area-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0 #fff solid;
+  background-color: #f2f2f24b;
+  color: #fff;
+}
+
+.contact-form-submit {
+  background-color: #f2f2f24b;
+  color: #fff;
+  border: 0 #f2f2f24b solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  width: 98%;
+  margin: 0 20px;
+}
+
+.contact-form-submit:hover {
+  background-color: #1e1e1e;
+  color: #f2f2f24b;
+  transition-duration: 700ms;
+}
+
 @media screen and (max-width: 576px) {
   .work-container {
     flex-flow: column nowrap;
@@ -145,5 +237,15 @@ body {
 
   .work-item {
     margin: 40px 0;
+  }
+
+  .contact-form-group {
+    width: 100%;
+  }
+  .contact-form-text-area-group {
+    width: 100%;
+  }
+  .contact-form-submit {
+    width: 90%;
   }
 }
