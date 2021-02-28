@@ -122,6 +122,22 @@ body {
   text-transform: uppercase;
 }
 
+.portfolio-grid-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-flow: column;
+  margin: 30px;
+}
+
+.portfolio-item img {
+  width: 200px;
+}
+
 @media screen and (max-width: 576px) {
   .work-container {
     flex-flow: column nowrap;
