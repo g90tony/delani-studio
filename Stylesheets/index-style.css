@@ -91,3 +91,43 @@ body {
   font-weight: 500;
   margin: 20px 0;
 }
+
+.work-container {
+  display: flex;
+  margin: 30px auto;
+  width: 100px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.work-item {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.work-header {
+  font-size: 28px;
+  margin: 40px 0;
+  font-weight: 600;
+}
+
+.work-item img {
+  width: 95px;
+  margin: 0 auto;
+}
+
+.work-item-header {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 576px) {
+  .work-container {
+    flex-flow: column nowrap;
+  }
+
+  .work-item {
+    margin: 40px 0;
+  }
+}
