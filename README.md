@@ -8,7 +8,7 @@ This is a landing page for the Delani Studio, a fictional software development a
 
 ## Setup/Installation Requirements
 
-To run this app on your computer, all you need to install a web browser (e.g. Google Chrome) and navigate to www.g90tony.github.io/delani-studio
+To run this app on your computer, all you need to install a web browser (e.g. Google Chrome) and navigate to g90tony.github.io/delani-studio
 
 ## Known Bugs
 
