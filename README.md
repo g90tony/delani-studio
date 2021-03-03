@@ -8,7 +8,11 @@ This is a landing page for the Delani Studio, a fictional software development a
 
 ## Setup/Installation Requirements
 
-To run this app on your computer, all you need to install a web browser (e.g. Google Chrome) and navigate to g90tony.github.io/delani-studio
+To run this app on your computer,
+
+- #### clone this repository: $ git clone "
+- #### unzip and open "Week 3 IP (Delani Studio)" with your code editor (e.g. Visual Studio Code)
+- #### create server instance and open index.hmtl
 
 ## Known Bugs
 
