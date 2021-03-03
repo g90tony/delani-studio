@@ -10,7 +10,7 @@ This is a landing page for the Delani Studio, a fictional software development a
 
 To run this app on your computer,
 
-- #### clone this repository: $ git clone "
+- #### clone this repository: $ git clone "https://github.com/g90tony/delani-studio"
 - #### unzip and open "Week 3 IP (Delani Studio)" with your code editor (e.g. Visual Studio Code)
 - #### create server instance and open index.hmtl
 
